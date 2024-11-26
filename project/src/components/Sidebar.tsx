@@ -1,12 +1,11 @@
 "use client"
 
-import { LayoutDashboard, Users, Shield } from 'lucide-react'
+import { Users, Shield } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
 const navigation = [
-  { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
   { name: 'Users', href: '/users', icon: Users },
   { name: 'Roles', href: '/roles', icon: Shield },
 ]
