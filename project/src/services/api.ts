@@ -1,13 +1,12 @@
 import { User, Role } from '@/types'
 import { store } from '@/lib/store'
 
-// Simulate network latency
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 
 export const api = {
   users: {
     getAll: async (): Promise<User[]> => {
-      await delay(500) // Simulate network request
+      await delay(500) 
       return store.users.getAll()
     },
     getById: async (id: string): Promise<User | undefined> => {
