@@ -26,7 +26,7 @@ export function Sidebar() {
         )}
       >
         <div className={cn(
-          "flex h-14 items-center border-b px-4",
+          "flex h-14 items-center border-b px-4 md:hidden",
           isCollapsed ? "justify-center" : "justify-between"
         )}>
           {!isCollapsed && <h1 className="text-lg font-semibold">VRV Security</h1>}
