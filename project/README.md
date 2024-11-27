@@ -1,4 +1,4 @@
-# VRV Security - User and Role Management System
+# User and Role Management System
 
 A modern web application for managing users and roles with a beautiful UI built using Next.js 14, TypeScript, and Tailwind CSS.
 
