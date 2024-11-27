@@ -141,7 +141,7 @@ export function UserManagement() {
 
       {filteredUsers.length === 0 && searchQuery && (
         <div className="text-center text-muted-foreground py-8">
-          No users found matching "{searchQuery}"
+          No users found matching &quot;{searchQuery}&quot;
         </div>
       )}
 
