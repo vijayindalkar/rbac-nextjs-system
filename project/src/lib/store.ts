@@ -4,16 +4,16 @@ import { User, Role } from '@/types'
 let users: User[] = [
   {
     id: '1',
-    name: 'John Doe',
-    email: 'john@example.com',
+    name: 'Vijay Indalkar',
+    email: 'vijayindalkar11@gmail.com',
     role: 'Admin',
     status: 'active',
   },
   {
     id: '2',
-    name: 'Jane Smith',
-    email: 'jane@example.com',
-    role: 'User',
+    name: 'Onkar Indalkar',
+    email: 'onkarindalkar@gmail.com',
+    role: 'Admin',
     status: 'active',
   },
   {
