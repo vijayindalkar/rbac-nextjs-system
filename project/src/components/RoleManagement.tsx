@@ -15,6 +15,7 @@ export function RoleManagement() {
   const [selectedRole, setSelectedRole] = useState<Role | null>(null)
   const { toast } = useToast()
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     loadRoles()
   }, [])

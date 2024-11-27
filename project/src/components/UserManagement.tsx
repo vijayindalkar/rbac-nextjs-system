@@ -19,6 +19,7 @@ export function UserManagement() {
   const [selectedUser, setSelectedUser] = useState<User | null>(null)
   const { toast } = useToast()
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     loadUsers()
     loadRoles()

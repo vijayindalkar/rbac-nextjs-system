@@ -12,6 +12,7 @@ export function Dashboard() {
   const [roles, setRoles] = useState<Role[]>([])
   const { toast } = useToast()
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     loadData()
   }, [])
