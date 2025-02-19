@@ -28,7 +28,7 @@ export function Sidebar({ isCollapsed, onCollapsedChange }: SidebarProps) {
           isCollapsed ? "justify-center" : "justify-between"
         )}
       >
-        {!isCollapsed && <h1 className="text-lg font-semibold">VRV Security</h1>}
+        {!isCollapsed && <h1 className="text-lg font-semibold">Security</h1>}
         <Button
           variant="ghost"
           size="icon"

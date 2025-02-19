@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'VRV Security Assignment',
+  title: 'Security Platform',
   description: 'User and Role Management System',
 }
 
